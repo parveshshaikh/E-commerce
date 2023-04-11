@@ -23,7 +23,7 @@ console.log('cart',cart)
         <div className='flex items-center gap-7'>
         <ul className='hidden md:flex ml-auto space-x-5 font-semibold'>
                    <Link to='/' className='hover:before:absolute before:bg-orange-600 before:w-12 before:h-[3px] before:bottom-3 before:rounded-xl cursor-pointer'>Home</Link>
-                   <Link to={'/menu'} className='hover:before:absolute before:bg-orange-600 before:w-12 before:h-[3px] before:bottom-3 before:rounded-xl cursor-pointer'>Menu</Link>
+                   <Link to='/menu' className='hover:before:absolute before:bg-orange-600 before:w-12 before:h-[3px] before:bottom-3 before:rounded-xl cursor-pointer'>Menu</Link>
                    <Link to='/' className='hover:before:absolute before:bg-orange-600 before:w-12 before:h-[3px] before:bottom-3 before:rounded-xl cursor-pointer'>About</Link>
                    <Link to='/' className='hover:before:absolute before:bg-orange-600 before:w-14 before:h-[3px] before:bottom-3 before:rounded-xl cursor-pointer'>Contact</Link>
                    
@@ -43,7 +43,7 @@ console.log('cart',cart)
           </div>
           <ul className={`absolute top-12  bg bg-white rounded-md shadow-lg flex flex-col px-5 items-center  md:hidden ${shownav ?'-right-96':'right-5'}`}>
                    <Link to='/' className='cursor-pointer'onClick={()=>setshownav(true)}>Home</Link>
-                   <Link to={'/menu'} className='cursor-pointer'onClick={()=>setshownav(true)}>Menu</Link>
+                   <Link to='/menu' className='cursor-pointer'onClick={()=>setshownav(true)}>Menu</Link>
                    <Link to='/' className='cursor-pointer'onClick={()=>setshownav(true)}>About</Link>
                    <Link to='/' className='cursor-pointer'onClick={()=>setshownav(true)}>Contact</Link>
           </ul>

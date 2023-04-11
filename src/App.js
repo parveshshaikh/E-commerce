@@ -10,8 +10,9 @@ function App() {
   return (
     <div className='w-full h-screen flex flex-col '>
     <Header/>
+  
     <main className='mt-16 px-4 w-full' onClick={()=>dispatch(show(false))}>
-    <Home/>
+    
     <Routes>
     <Route path='/' element={<Home/>}/>
       <Route path='/menu' element={<Menucontainer/>}/>
