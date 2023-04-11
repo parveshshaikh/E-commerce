@@ -4,6 +4,7 @@ import herobg from '../img/heroBg.png'
 import { herosData } from '../Utils/Data'
 import {motion} from 'framer-motion'
 import {Menu,Menucontainer} from './index'
+
 const Home = () => {
   return (
     <>
@@ -41,6 +42,7 @@ const Home = () => {
       </div>
        
     </div>
+    
     <Menu/>
     <Menucontainer/>
     </>
