@@ -44,52 +44,92 @@ import i5 from '../img/i5.png'
 import i6 from '../img/i6.png'
 import i7 from '../img/i7.png'
 import r1 from '../img/r1.png'
-import r2 from '../img/r2.png'
-import r3 from '../img/r3.png'
-import r4 from '../img/r4.png'
-import r5 from '../img/r5.png'
+
 
 export const herosData=[
           {
-                    id:1,name:'icecream',desc:'Chocolate',price :'5.25',
+                    id:1,name:'Icecream',desc:'Chocolate',price :'5.25',
                     image:I1
           },
           {
-                    id:2,name:'icecream',desc:'Straberry',price :'5.25',
+                    id:2,name:'Straberry',desc:'Straberry',price :'5.25',
                     image:f1
           },
           {
-                    id:3,name:'icecream',desc:'Mix Kebab plate',price :'5.25',
+                    id:3,name:'Chicken Kebab',desc:'Mix Chicken Kebab ',price :'5.25',
                     image:C3
           },
           {
-                    id:4,name:'icecream',desc:'Fish Kebab',price :'5.25',
+                    id:4,name:'Fish',desc:'Mix Fish Kebab',price :'5.25',
                     image:Fi1
           },
 ]
 
+
+// export const cat=[
+//           {
+//                     id:11,name:'icecream',desc:'Chocolate',
+//                     price :'5.25',
+//                     image:I1
+//           },
+//           {
+//                     id:12,name:'icecream',desc:'Straberry',
+//                     price :'5.25',
+//                     image:f1
+//           },
+//           {
+//                     id:13,name:'icecream',desc:'Mix Kebab plate',price :'5.25',
+//                     image:C3
+//           },
+//           {
+//                     id:14,name:'icecream',desc:'Fish Kebab',
+//                     price :'5.25',
+//                     image:Fi1
+//           },
+// ]
 
 export const cat=[
-          {
-                    id:11,name:'icecream',desc:'Chocolate',
-                    price :'5.25',
-                    image:I1
-          },
-          {
-                    id:12,name:'icecream',desc:'Straberry',
-                    price :'5.25',
-                    image:f1
-          },
-          {
-                    id:13,name:'icecream',desc:'Mix Kebab plate',price :'5.25',
-                    image:C3
-          },
-          {
-                    id:14,name:'icecream',desc:'Fish Kebab',
-                    price :'5.25',
-                    image:Fi1
-          },
+    {
+        id:1,name:"chicken"
+    },   
+    {
+         id:10,name:"veg curry",
+        
+    },
+ 
+    {
+         id:14,name:"soup & rich",
+        
+    },
+    {
+         id:15,name:"drink",
+        
+    },
+  
+    {
+         id:21,name:"fruit",
+        
+    },
+   
+    {
+         id:31,name:"fish",
+        
+    },
+    
+    {
+         id:36,name:"ice cream",
+        
+    },
+    
+    {
+         id:43,name:"rice",
+        
+    },
+  
+  
+    
 ]
+
 export const product=[
     {
         id:1,name:' manchurian',category:"chicken",

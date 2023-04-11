@@ -1,1 +1,6 @@
 export {default as Header} from './header'
+export {default as Home} from './Home'
+export {default as Menu} from './Menu'
+export {default as Rowcontainer} from './Rowcontainer'
+export {default as Menucontainer} from './Menucontainer'
+export {default as Cartcontainer} from './Cartcontainer'
