@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter, Routes } from 'react-router-dom';
 import {legacy_createStore as createStore} from 'redux'
 import { Provider } from 'react-redux';
 import  combineReducers  from './Reducers/index';
@@ -14,9 +14,9 @@ root.render(
     
     <Provider store={store}>
     <BrowserRouter>
-    <Route>
+    <Routes>
     <App />
-    </Route>
+    </Routes>
     </BrowserRouter>
     </Provider>
    
