@@ -13,7 +13,7 @@ function App() {
     <main className='mt-16 px-4 w-full' onClick={()=>dispatch(show(false))}>
     
     <Routes>
-    <Route path='/E-commerce' element={<Home/>}/>
+    <Route path='/' element={<Home/>}/>
     <Route path='/menu' element={<Menucontainer/>}/>
     </Routes>
     </main>

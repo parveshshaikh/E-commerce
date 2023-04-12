@@ -24,8 +24,7 @@ console.log('cart',cart)
         <ul className='hidden md:flex ml-auto space-x-5 font-semibold'>
                    <Link to='/' className='hover:before:absolute before:bg-orange-600 before:w-12 before:h-[3px] before:bottom-3 before:rounded-xl cursor-pointer'>Home</Link>
                    <Link to='/menu' className='hover:before:absolute before:bg-orange-600 before:w-12 before:h-[3px] before:bottom-3 before:rounded-xl cursor-pointer'>Menu</Link>
-                   <Link to='/' className='hover:before:absolute before:bg-orange-600 before:w-12 before:h-[3px] before:bottom-3 before:rounded-xl cursor-pointer'>About</Link>
-                   <Link to='/' className='hover:before:absolute before:bg-orange-600 before:w-14 before:h-[3px] before:bottom-3 before:rounded-xl cursor-pointer'>Contact</Link>
+                 
                    
           </ul>
           <div className='relative flex items-center gap-5 cursor-pointer'>
